@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a proud member of a London based start-up with passionate people leveraging state-of-the-art technology to simplify professionals’ work-life.
+I am a proud member of a London based scale-up with passionate people leveraging state-of-the-art technology to simplify professionals’ work-life.
 
 This blog has been initiated to cover some musings of my passionate endeavours into the art and science of Management Innovation. I did my PhD in Management Innovation under Prof. Patrick Reinmoeller at Cranfield University.
 
