@@ -1,0 +1,22 @@
+---
+layout: post
+title: Some challenges around Deep Learning networks
+---
+
+| ![]({{ site.baseurl }}/images/mika-baumeister-Wpnoqo2plFA-unsplash.jpg ) |
+| :----------------------------------------------------------------------: |
+|                  _Photo by Mika Baumeister on Unsplash_                  |
+
+Machine learning is paving the way for Artificial Intelligence. With ever-increasing amounts of data around us and the availability of cheaper and faster compute, its specific applications are only limited by our imagination. Advances in research and applied approaches have also kept pace.
+
+This post focuses on a specific category within machine learning called Deep Learning (DL) networks. These networks have continued to surprise in their applications and hold a lot of promise. These are also receiving a lot of research and industry attention for natural language, computer vision, time-series and multi-modal applications. DL networks and their current approaches also highlight some challenges. For example, the need for large amounts of training data, relatively large model sizes with millions of parameters and therefore a need for computational efficiency, concerns around inference explainability and interpretability and the fundamental limits around transferability. In this post, I will try to demystify and explain a few of these in simple language.
+
+The first important challenge is around energy efficiency. DL models are compute-heavy and therefore there exists a natural need to optimise on the carbon impact this adds to the environment. Larger text/NLP models these days are trained with terabytes of training data and requires days if not months to train on large clusters of GPUs. A few promising ideas in this direction for optimising training cycles range from model pruning to network compression, to executing on lower floating-point precision in order to reduce memory and training time, but more work is required.
+
+The next challenge is around explainability and interpretability. DL networks are complex and large and therefore it is nearly impossible to understand the rationale behind specific predictions. “Explainability" is the extent to which one can understand the model behaviour, basically why is the model behaving the way it does? On the other hand “Interpretability" is whether the model behaviour is understood by its users. Given these networks are deep multi-layered architectures with millions of parameters, it is vital to learn how they work together to generate a prediction. This is a challenging area because if we are to adopt DL to make a real difference to our lives and day to day decision making we better understand how does it do what it does? This also raises a lot of ethical concerns as the dependence on these prediction models moves towards augmenting and aiding human ability.
+
+As noted earlier, these architectures also require a lot of training data to be useful and work reliably. This has been largely addressed with transfer learning approaches which start with an existing pre-trained model and then following it up with fine-tuning on newer datasets. But this is built on assumptions of similarities around the existing pre-trained feature vectors, which may not always be the case. Transfer learning is a promising approach, but comes with its own practical limits, especially on out of domain generalisation. This is not how we humans learn. Our learning and problem solving are much more transferable. I believe this may be so because the current DL networks are built over the "Artificial neuron” structure, which may be limiting its applications on modelling nonlinearity. I would posit there may exist an even more fundamental building block than the artificial neuron which may be more amenable to learn at a more fundamental level. Pure research in this may open up more avenues for advances to extend the bounds of generalisability.
+
+DL networks have come a long way and an active area of research and practice. What it can learn is beyond simple function approximations and curve fitting and their applications are widespread. In this post, I covered a few challenges with DL, among of course many, but nevertheless all gaining research and industry attention. Watch this space.
+
+Note: This post was first published on LinkedIn [here](https://www.linkedin.com/pulse/some-challenges-around-deep-learning-networks-mohit-mehta-phd/).

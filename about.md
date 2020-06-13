@@ -12,6 +12,6 @@ My objective is to be able to offer meaningful ideas which improve lives of all 
 
 I am inspired by the thinking of Peter Drucker and Gary Hamel.
 
-### Contact me
+## Contact me
 
 [mmegps@gmail.com](mailto:mmegps@gmail.com)
