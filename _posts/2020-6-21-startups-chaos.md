@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Startups and chaos
+title: Good chaos... Bad chaos
 ---
 
 | ![]({{ site.baseurl }}/images/manuel-sardo-2tSSHPO903U-unsplash.jpg ) |
