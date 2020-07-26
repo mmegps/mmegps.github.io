@@ -3,9 +3,9 @@ layout: post
 title: Decentralisation and Purpose
 ---
 
-| ![]({{ site.baseurl }}/images/charles-deluvio-OWkXt1ikC5g-unsplash_2.jpg ) |
-| :------------------------------------------------------------------------: |
-|                   _Photo by Charles Deluvio on Unsplash_                   |
+| ![]({{ site.baseurl }}/images/charles-deluvio-OWkXt1ikC5g-unsplash.jpg ) |
+| :----------------------------------------------------------------------: |
+|                  _Photo by Charles Deluvio on Unsplash_                  |
 
 A few years back I had read a note on the future of work by Thomas Malone, a professor at MIT.
 
