@@ -3,7 +3,7 @@ layout: post
 title: From Me to We - Navigating the Shift in Creative Intentions
 ---
 
-| ![]({{ site.baseurl }}/images/swapnil-dwivedi-w46tRF64qNc-unsplash.gif) |
+| ![]({{ site.baseurl }}/images/swapnil-dwivedi-w46tRF64qNc-unsplash.jpg) |
 | :---------------------------------------------------------------------: |
 |                 _Photo by Swapnil Dwivedi on Unsplash_                  |
 
