@@ -31,6 +31,8 @@ A few personal heuristics may help you navigate initially, but a genuine underst
 
 In conclusion, the context in which you're building – for yourself or for others – significantly impacts your approach and progress. When building for yourself, your satisfaction is the ultimate judge; for others, a keen ear, the ability to reflect, and adaptability are crucial. There are no shortcuts or alternative paths. This is the way.
 
-**Note**: This blog post is a collaboration between the author and ChatGPT, a large language model from OpenAI. The author provided the ideas and the wrote the content. ChatGPT provided proof-reading and feedback for improvements.
+**Note**: This blog post is a collaboration between the author and ChatGPT, a large language model from OpenAI.
+The author provided the ideas and wrote the content.
+ChatGPT provided proof-reading and feedback for improvements.
 
 Note: This post was first published on LinkedIn [here](https://www.linkedin.com/pulse/from-me-we-navigating-shift-creative-intentions-mohit-mehta/).
