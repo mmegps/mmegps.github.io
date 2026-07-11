@@ -51,7 +51,7 @@ p{margin:0 0 1em}
   background:
     radial-gradient(900px 400px at 78% -14%, color-mix(in srgb,var(--accent-2) 22%, transparent), transparent),
     radial-gradient(720px 360px at 0% 0%, color-mix(in srgb,var(--accent) 14%, transparent), transparent)}
-.hero-inner{max-width:840px}
+.hero-inner{max-width:var(--max)}
 .eyebrow{text-transform:uppercase; letter-spacing:.14em; font-size:.78rem; color:var(--accent); margin:0 0 .7em; font-weight:600}
 .headline{font-size:clamp(2.3rem,5.2vw,3.7rem); line-height:1.06; letter-spacing:-.015em; margin:0 0 .55em}
 .byline{display:flex; align-items:center; gap:14px; margin:0 0 1.2em}
@@ -60,7 +60,7 @@ p{margin:0 0 1em}
 .byline .who{font-weight:700; font-size:1.05rem; font-family:Georgia,serif}
 .byline .role{color:var(--muted); font-size:.92rem}
 .lead{font-size:1.25rem; color:var(--fg); margin:.3em 0}
-.tagline{font-size:1.15rem; color:var(--muted); max-width:660px; line-height:1.6}
+.tagline{font-size:1.15rem; color:var(--muted); max-width:var(--max); line-height:1.6}
 .hero-actions{margin-top:1.6em; display:flex; gap:12px; flex-wrap:wrap}
 .btn{display:inline-block; background:var(--accent); color:#fff; padding:11px 20px; border-radius:10px; font-weight:600}
 .btn:hover{background:var(--accent-2); text-decoration:none}
