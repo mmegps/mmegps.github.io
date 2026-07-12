@@ -99,6 +99,8 @@ a.chip:hover{text-decoration:none; border-color:var(--accent); color:var(--accen
 .post-card h3 a{color:var(--fg)}
 .post-card h3 a:hover{color:var(--accent)}
 .post-card p:last-child{color:var(--muted); font-size:.94rem; margin:0}
+.post-card{position:relative}
+.post-card h3 a::after{content:""; position:absolute; inset:0}
 .more{margin-top:1.4em}
 .more a{font-weight:600}
 
