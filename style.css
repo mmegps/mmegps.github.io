@@ -127,10 +127,11 @@ a.chip:hover{text-decoration:none; border-color:var(--accent); color:var(--accen
   border-radius:999px; padding:1px 10px}
 .start-here-page .pillar-blurb{color:var(--muted); margin:.2em 0 1.2em}
 .start-here-page .picks{list-style:none; padding:0; margin:0; display:grid; gap:1.1em}
-.start-here-page .pick{border:1px solid var(--line); border-radius:14px; padding:1em 1.2em;
+.start-here-page .pick{position:relative; border:1px solid var(--line); border-radius:14px; padding:1em 1.2em;
   transition:transform .15s ease, box-shadow .15s ease; cursor:pointer}
 .start-here-page .pick:hover{transform:translateY(-3px); box-shadow:0 10px 30px rgba(0,0,0,.08)}
 .start-here-page .pick a{font-size:1.1rem; font-weight:600; color:var(--fg)}
+.start-here-page .pick a::after{content:""; position:absolute; inset:0; border-radius:14px}
 .start-here-page .pick a:hover{color:var(--accent)}
 .start-here-page .pick-meta{display:block; font-size:.8rem; color:var(--muted); margin:.2em 0 .5em}
 .start-here-page .pick p{margin:0; color:var(--muted); font-size:.94rem}
