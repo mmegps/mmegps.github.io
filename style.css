@@ -112,8 +112,8 @@ a.chip:hover{text-decoration:none; border-color:var(--accent); color:var(--accen
 /* start here */
 .start-hero{padding:56px 0 24px; text-align:center}
 .start-hero .eyebrow{color:var(--accent); text-transform:uppercase; letter-spacing:.08em; font-size:.8rem; margin:0 0 .6em}
-.start-hero h1{font-size:clamp(2rem,6vw,3rem); margin:0 0 .4em}
-.start-hero .lead{font-size:1.15rem; color:var(--muted); max-width:54ch; margin:0 auto; text-align:justify}
+.start-hero h1{font-size:clamp(2rem,6vw,3rem); margin:0 auto .4em; max-width:54ch}
+.start-hero .lead{font-size:1.15rem; color:var(--muted); max-width:54ch; margin:0 auto; text-align:justify; text-align-last:justify}
 .start-here-page .pillar{padding:28px 0; border-top:1px solid var(--line)}
 .start-here-page .pillar:first-of-type{border-top:none}
 .start-here-page .pillar h2{display:flex; align-items:baseline; gap:.5em; margin:0 0 .2em}
