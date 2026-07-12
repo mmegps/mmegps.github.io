@@ -79,6 +79,10 @@ a.chip:hover{text-decoration:none; border-color:var(--accent); color:var(--accen
 
 /* latest / writing grid */
 .latest,.writing{padding:48px 0}
+.writing .pillar-block{padding:24px 0; border-top:1px solid var(--line)}
+.writing .pillar-block:first-of-type{border-top:none}
+.writing .pillar-block h2{margin:0 0 .2em}
+.writing .pillar-blurb{color:var(--muted); margin:.2em 0 1.2em}
 .post-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:24px; margin-top:1em}
 .post-card{background:var(--card); border:1px solid var(--line); border-radius:14px; overflow:hidden;
   display:flex; flex-direction:column; transition:transform .15s ease, box-shadow .15s ease}
