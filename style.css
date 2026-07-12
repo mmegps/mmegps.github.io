@@ -109,6 +109,25 @@ a.chip:hover{text-decoration:none; border-color:var(--accent); color:var(--accen
 .focus{line-height:1.9}
 .focus li{margin-bottom:.4em}
 
+/* start here */
+.start-hero{padding:56px 0 24px; text-align:center}
+.start-hero .eyebrow{color:var(--accent); text-transform:uppercase; letter-spacing:.08em; font-size:.8rem; margin:0 0 .6em}
+.start-hero h1{font-size:clamp(2rem,6vw,3rem); margin:0 0 .4em}
+.start-hero .lead{font-size:1.15rem; color:var(--muted); max-width:42ch; margin:0 auto}
+.start-here-page .pillar{padding:28px 0; border-top:1px solid var(--line)}
+.start-here-page .pillar:first-of-type{border-top:none}
+.start-here-page .pillar h2{display:flex; align-items:baseline; gap:.5em; margin:0 0 .2em}
+.start-here-page .pillar .count{font-size:.85rem; font-weight:600; color:#fff; background:var(--accent);
+  border-radius:999px; padding:1px 10px}
+.start-here-page .pillar-blurb{color:var(--muted); margin:.2em 0 1.2em}
+.start-here-page .picks{list-style:none; padding:0; margin:0; display:grid; gap:1.1em}
+.start-here-page .pick{border:1px solid var(--line); border-radius:14px; padding:1em 1.2em}
+.start-here-page .pick a{font-size:1.1rem; font-weight:600; color:var(--fg)}
+.start-here-page .pick a:hover{color:var(--accent)}
+.start-here-page .pick-meta{display:block; font-size:.8rem; color:var(--muted); margin:.2em 0 .5em}
+.start-here-page .pick p{margin:0; color:var(--muted); font-size:.94rem}
+.start-here-page .more{margin-top:1.2em}
+
 /* footer */
 .site-footer{border-top:1px solid var(--line); padding:36px 0; margin-top:40px; color:var(--muted); font-size:.92rem}
 .site-footer p{margin:.2em 0}
