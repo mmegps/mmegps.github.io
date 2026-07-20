@@ -45,15 +45,55 @@ Because of that:
 
 ## Deploying
 
-The build output from the source generator is copied into this repository and
-committed to `master`. GitHub Pages then serves it automatically.
+This repo (`master`) holds only the **built output**. The source generator lives
+at `/home/mm/site` — also version-controlled on the `source` branch of this same
+repo (see "Backing up the source" below). To publish a change:
 
-Typical flow:
+### 1. Edit the source
+Edit copy/posts in `/home/mm/site` — e.g. `src/posts/*.md`, or the `SITE` dict and
+`build_home()` / `build_about()` functions in `build.py` for homepage & About copy.
 
-1. Edit source / posts in `/home/mm/site`.
-2. Rebuild (generator writes into its `output/` directory).
-3. Copy `output/` into this repo, `git commit`, and `git push origin master`.
-4. Wait ~30–60s for GitHub Pages to rebuild, then verify live.
+### 2. Build
+```bash
+cd /home/mm/site
+./venv/bin/python build.py        # writes the site into output/
+```
+The build is deterministic: same source, same output.
+
+### 3. Deploy (via SSH)
+This environment has no `gh` CLI or GitHub token, but an SSH key for the mmegps
+account is configured, so push over SSH:
+
+```bash
+# fresh clone of the live repo
+git clone --depth 1 git@github.com:mmegps/mmegps.github.io.git /tmp/siteclone
+
+# copy the freshly built output into it
+cp -r /home/mm/site/output/. /tmp/siteclone/
+
+# commit + push to master (what GitHub Pages serves)
+cd /tmp/siteclone
+git add -A
+git commit -m "deploy: <short description of change>"
+git push origin master
+```
+
+### 4. Verify
+Wait ~30–60s for GitHub Pages to rebuild, then check:
+- Live: https://mmegps.github.io/<file>
+- API (authoritative): the
+  `/repos/mmegps/mmegps.github.io/contents/<file>?ref=master` contents endpoint
+  (base64-decoded). `raw.githubusercontent.com` can lag the push by seconds–minutes,
+  so don't chase a stale raw response.
+
+### Backing up the source
+After editing, commit the generator to the `source` branch so the source is
+off-machine and version-controlled (not single-machine dependent):
+
+```bash
+cd /home/mm/site
+git add -A && git commit -m "source: <change>" && git push origin source
+```
 
 ## Notes
 
