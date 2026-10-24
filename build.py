@@ -16,7 +16,7 @@ TODAY = datetime.date(2026, 7, 11)
 
 SITE = {
     "name": "Mohit Mehta",
-    "role": "Management Innovation PhD · Strategy & AI Advisor",
+    "role": "AI Strategy & Operator | PhD in Management Innovation",
     "tagline": "Less theory, more decision clarity around what matters. Management innovation basics meeting start-up reality.",
     "url": "https://mmegps.github.io",
     "email": "mmegps@gmail.com",
@@ -416,8 +416,8 @@ def build_about():
 <section class="about">
   <div class="container narrow">
     <h1>About</h1>
-    <p class="lead">You do not need another think piece about AI or generic start-up advice. You need simple, clear, contextual and grounded thinking you can bring into a leadership team. This is what this site is for, and this is what I do.</p>
-    <p>I hold a PhD in Management Innovation from Cranfield, and Masters in Mathematics and Computer Science, and bring 25 years of industry experience, applying my knowledge and experience daily within a fast-moving London technology start-up. I proudly pair established theory with real execution in strategy, leadership and applied AI. That is why you will see the ideas here are real reflections of the field and real executions, and not just admired good-sounding advice.</p>
+    <p class="lead">This site is dedicated to simple, clear, and grounded thinking for leadership teams. It's not another collection of think pieces about AI or generic startup advice. It's about the nuance and specificity that come from real-world applications.</p>
+    <p>I hold a PhD in Management Innovation from Cranfield and a Masters in Mathematics and Computer Science. With 25 years of industry experience, I apply this knowledge daily within a fast-moving London technology scale-up. I proudly pair established theory with real execution in strategy, leadership, and applied AI. Here, you will find reflections of the field and actual execution, and not just good-sounding theory.</p>
     <h2>Focus areas</h2>
     <ul class="focus">
       <li><strong>Strategy &amp; Positioning</strong> — turning ambiguity into a decision.</li>
